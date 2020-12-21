@@ -1,0 +1,38 @@
+.circle {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.circle-border {
+  position: relative;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: black;
+  /* background-image: linear-gradient(110deg, transparent 50%, #f0f0f0 50%), linear-gradient(90deg, #f0f0f0 50%, transparent 50%); */
+}
+.circle-php{
+  background-image: linear-gradient(170deg, transparent 50%, #f0f0f0 50%), linear-gradient(90deg, #f0f0f0 50%, transparent 50%);
+}
+.circle-wordpress{
+  background-image: linear-gradient(160deg, transparent 50%, #f0f0f0 50%), linear-gradient(90deg, #f0f0f0 50%, transparent 50%);
+}
+.circle-js{
+  background-image: linear-gradient(210deg, transparent 50%, #f0f0f0 50%), linear-gradient(90deg, #f0f0f0 50%, transparent 50%);
+}
+.skillsBox{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.skillsBox>div:nth-child(2), .skillsBox>div:nth-child(3){
+  margin-left: 20px;
+}
